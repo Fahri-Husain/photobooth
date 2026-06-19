@@ -59,9 +59,18 @@ button {
   }
 }
 
+.desktop-only {
+  display: none;
+}
+@media (min-width: 768px) {
+  .desktop-only {
+    display: inline-block;
+  }
+}
+
 /* Typography Classes */
 .heading-display {
-  font-size: clamp(2.2rem, 8vw, 5rem);
+  font-size: clamp(1.8rem, 8vw, 5rem);
   line-height: 1.1;
   letter-spacing: -0.02em;
 }

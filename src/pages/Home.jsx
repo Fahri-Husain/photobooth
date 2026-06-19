@@ -26,8 +26,8 @@ const Home = () => {
       <div className="container hero-container">
         <div className="hero-content">
           <motion.h1 className="heading-display" variants={textVariants}>
-            Capture the<br/>
-            <span className="italic-serif">elegant</span> moments.
+            Capture the<br className="desktop-only"/>
+            {' '}<span className="italic-serif">elegant</span> moments.
           </motion.h1>
           <motion.p className="text-lg mt-4" variants={textVariants} transition={{ delay: 0.4 }}>
             Premium photobooth experiences for weddings, corporate events, and exclusive parties. Elevate your event with studio-quality portraits.
