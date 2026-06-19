@@ -6,13 +6,14 @@
 
 .editor-container {
   display: flex;
-  flex-direction: column;
-  height: calc(100vh - 80px);
+  flex-direction: column-reverse;
+  min-height: calc(100vh - 80px);
 }
 
 @media (min-width: 992px) {
   .editor-container {
     flex-direction: row;
+    height: calc(100vh - 80px);
   }
 }
 

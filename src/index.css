@@ -50,12 +50,18 @@ button {
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 2rem;
+  padding: 0 1.25rem;
+}
+
+@media (min-width: 768px) {
+  .container {
+    padding: 0 2rem;
+  }
 }
 
 /* Typography Classes */
 .heading-display {
-  font-size: clamp(3rem, 8vw, 5rem);
+  font-size: clamp(2.2rem, 8vw, 5rem);
   line-height: 1.1;
   letter-spacing: -0.02em;
 }

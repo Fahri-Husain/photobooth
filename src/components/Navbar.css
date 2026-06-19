@@ -109,10 +109,11 @@
 
 .mobile-nav-link {
   font-family: var(--font-serif);
-  font-size: 3rem;
-  font-weight: 600;
+  font-size: 2.2rem;
+  font-weight: 400;
   color: var(--color-dark);
   position: relative;
+  letter-spacing: 0.02em;
 }
 
 .mobile-nav-link.active {
